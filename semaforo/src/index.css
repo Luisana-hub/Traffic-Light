@@ -11,27 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 #rectangulo1{
+    width: 25px; height: 100px;
     display: inline-block;
     background: black;
 }
 #rectangulo2{
+    width: 130px; height: 300px;
     display: inline-block;
     background: black;
     border-radius: 10px;
 }
-#rojo{
+.rojo{
+    width: 80px; height: 80px; 
+    margin-top: 20px; 
     display: inline-block;
     background:red;
     border-radius: 80px;
 }
-#amarillo{
+.amarillo{
+    width: 80px; height: 80px;
+    margin-top: 0px; 
     display: inline-block;
     background:yellow;
     border-radius: 80px;
 }
-#verde{
+.verde{
+    width: 80px; height: 80px;
     display: inline-block;
     background:green;
     border-radius: 80px;
+}
+.luz{
+    box-shadow: 5px 5px 50px rgb(209, 208, 208);
 }
